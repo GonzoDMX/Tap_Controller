@@ -25,7 +25,7 @@ sensGroup = 5
 
 Disclaimer1 = "Tap Shoes Controller Created by: Andrew O\'Shei"
 Disclaimer2 = "Do not use, copy or distribute without permission"
-Disclaimer3 = "For more info contact: andrewoshei@gmail.com"
+Disclaimer3 = "For more info contact: andrewoshei.com/contact"
 
 selectedCue = False
 selCue = -1

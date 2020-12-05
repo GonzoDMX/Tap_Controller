@@ -10,22 +10,22 @@ from cx_Freeze import setup, Executable
 build_exe_options = {"packages": ["os"]}
 
 #Path to TCL Library
-os.environ['TCL_LIBRARY'] = r'C:\Users\andre\AppData\Local\Programs\Python\Python36-32\tcl\tcl8.6'
+os.environ['TCL_LIBRARY'] = r'C:\Users\AppData\Local\Programs\Python\Python36-32\tcl\tcl8.6'
 #Path to TK Library
-os.environ['TK_LIBRARY'] = r'C:\Users\andre\AppData\Local\Programs\Python\Python36-32\tcl\tk8.6'
+os.environ['TK_LIBRARY'] = r'C:\Users\AppData\Local\Programs\Python\Python36-32\tcl\tk8.6'
 
 buildOptions = dict(
     packages = [],
     excludes = [],
     #Include path to libraries and icon file here or they won't load properly when building executable
-    include_files=[r'C:\Users\andre\AppData\Local\Programs\Python\Python36-32\DLLs\tcl86t.dll',
-                   r'C:\Users\andre\AppData\Local\Programs\Python\Python36-32\DLLs\tk86t.dll',
-                   r'C:\Users\andre\My Documents\LiClipse Workspace\Taps_Controller\taps.ico'])
+    include_files=[r'C:\Users\AppData\Local\Programs\Python\Python36-32\DLLs\tcl86t.dll',
+                   r'C:\Users\AppData\Local\Programs\Python\Python36-32\DLLs\tk86t.dll',
+                   r'C:\Users\My Documents\LiClipse Workspace\Taps_Controller\taps.ico'])
 
 base = 'Win32GUI' if sys.platform == 'win32' else None
 
 # Icon is Path to app icon file
-executables = [ Executable('Taps_Controller.py', base=base, icon=r'C:\Users\andre\My Documents\LiClipse Workspace\Taps_Controller\taps.ico')]
+executables = [ Executable('Taps_Controller.py', base=base, icon=r'C:\Users\My Documents\LiClipse Workspace\Taps_Controller\taps.ico')]
 
 setup(name='Tap Controller',
       version = '1.0.0',

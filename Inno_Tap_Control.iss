@@ -22,9 +22,9 @@ AppUpdatesURL={#MyAppURL}
 DefaultDirName={pf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 DisableProgramGroupPage=yes
-OutputDir=C:\Users\andre\Desktop\Compiler_Output
+OutputDir=C:\Users\Desktop\Compiler_Output
 OutputBaseFilename=Setup_Tap_Controller
-SetupIconFile=C:\Users\andre\Desktop\build\Tap Controller\taps.ico
+SetupIconFile=C:\Users\Desktop\build\Tap Controller\taps.ico
 Compression=lzma
 SolidCompression=yes
 AppCopyright=9/10/2018
@@ -44,8 +44,8 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Users\andre\Desktop\build\Tap Controller\Taps_Controller.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\andre\Desktop\build\Tap Controller\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\Desktop\build\Tap Controller\Taps_Controller.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Desktop\build\Tap Controller\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
